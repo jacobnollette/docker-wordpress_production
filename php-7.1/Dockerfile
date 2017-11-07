@@ -8,6 +8,7 @@ RUN set -ex; \
 	apt-get install -y \
 		libjpeg-dev \
 		libpng-dev \
+		sendmail \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
 	\
