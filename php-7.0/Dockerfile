@@ -14,6 +14,9 @@ RUN set -ex; \
 		php7.0-cli php7.0-curl \
 		php7.0-zip \
 		php7.0-mb \
+		wget \
+		zip \
+		unzip
 		sendmail \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
