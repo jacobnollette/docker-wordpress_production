@@ -8,6 +8,12 @@ RUN set -ex; \
 	apt-get install -y \
 		libjpeg-dev \
 		libpng-dev \
+		php7.0-mcrypt \
+		php7.0-curl \
+		php7.0-gd php7.0-gmp \
+		php7.0-cli php7.0-curl \
+		php7.0-zip \
+		php7.0-mb \
 		sendmail \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
