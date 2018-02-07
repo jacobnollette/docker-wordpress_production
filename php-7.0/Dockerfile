@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y software-properties-common language-pack-en-base \
 	&& LC_ALL=en_US.UTF-8 add-apt-repository -y ppa:ondrej/php \
 	&& apt-get update \
-	&& apt-get install -y php7.0 php7.0-fpm php7.0-mysql mcrypt php7.0-gd curl \
+	&& apt-get install -y sendmail php7.0 php7.0-fpm php7.0-mysql mcrypt php7.0-gd curl \
 		supervisor \
 		php7.0-curl php7.0-mbstring \
 		php7.0-mcrypt \
